@@ -52,3 +52,13 @@ directory into your current folder — clutter you don't want in a lessons repo.
 1. **`01-basics-and-types`** — variables, type inference, zero values (Go has no
    `undefined`/`None`), slices, multiple return values, Go's `(value, error)`
    idiom for error handling, and `any` with type assertions.
+2. **`02-structs-methods-interfaces`** — structs, exported vs. unexported
+   (capitalization as the access modifier), methods, value vs. pointer
+   receivers, embedding (Go's answer to inheritance), and interfaces satisfied
+   implicitly — structural typing, always, no nominal option.
+3. **`03-type-switches`** — type switches as Go's `switch`/`match` for `any`,
+   modeling discriminated unions as one interface with many implementing
+   structs, and the honest gap: Go has no compile-time exhaustiveness checking.
+4. **`04-generics-and-variadics`** — variadic params, generic functions/structs
+   with constraints, and what Go deliberately omits: default parameters and
+   function overloading, plus the idiomatic workarounds for both.
